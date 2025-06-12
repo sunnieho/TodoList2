@@ -1,14 +1,10 @@
 [
   {
-    "text": "1111",
+    "text": "Hello World!",
     "done": false
   },
   {
-    "text": "2222",
-    "done": false
-  },
-  {
-    "text": "3333",
+    "text": "Sorry, a while time before it will be deleted",
     "done": false
   }
 ]
