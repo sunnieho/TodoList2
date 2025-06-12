@@ -34,7 +34,7 @@ export default {
         async addTodo() {
             if (this.newTodo.trim()) {
                 try {
-                    const response = await fetch('http://localhost:3000/api/add', {
+                    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/add`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -50,7 +50,7 @@ export default {
         },
         async deleteTodo(index) {
             try {
-                const response = await fetch('http://localhost:3000/api/delete', {
+                const response = await fetch(`${import.meta.env.VITE_API_URL}/api/delete`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
