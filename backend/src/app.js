@@ -49,7 +49,7 @@ app.post('/api/delete', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('🎉 後端伺服器已啟動');
+    res.send('🎉 backend server is running!');
   });
 
 const PORT = 3000;
